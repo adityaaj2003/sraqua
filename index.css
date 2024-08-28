@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
 
 .food-munch-logo {
     width: 100px;
@@ -66,6 +66,7 @@
 
 .wcu-section {
     background-color: #f9fbfe;
+    padding: 20px;
 }
 
 .wcu-section-heading {
@@ -73,12 +74,14 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .wcu-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
+    text-align: center;
 }
 
 .wcu-card {
@@ -88,11 +91,14 @@
     border-width: 1px;
     border-color: #e5eaf4;
     border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .wcu-card-image {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
 }
 
 .wcu-card-title {
@@ -116,6 +122,7 @@
 
 .explore-menu-section {
     background-color: white;
+    padding: 20px;
 }
 
 .menu-section-heading {
@@ -123,10 +130,13 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .menu-item-image {
     border-radius: 16px;
+    width: 100%;
+    height: auto;
 }
 
 .menu-card-title {
@@ -135,6 +145,7 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 24px;
+    text-align: center;
 }
 
 .menu-item-link {
@@ -142,18 +153,22 @@
     font-family: "Roboto";
     font-size: 14px;
     font-weight: 500;
+    text-align: center;
 }
 
 .menu-item-card {
     border-radius: 16px;
+    margin-bottom: 20px;
 }
 
 .healthy-food-section {
     background-color: #f9fbfe;
+    padding: 20px;
 }
 
 .healthy-food-section-img {
-    width: 270px;
+    width: 100%;
+    height: auto;
 }
 
 .healthy-food-section-heading {
@@ -161,20 +176,24 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .healthy-food-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
+    text-align: center;
 }
 
 .delivery-and-payment-section {
     background-color: white;
+    padding: 20px;
 }
 
 .delivery-and-payment-section-img {
-    width: 270px;
+    width: 100%;
+    height: auto;
 }
 
 .delivery-and-payment-section-heading {
@@ -182,12 +201,14 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .delivery-and-payment-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
+    text-align: center;
 }
 
 .payment-card-img {
@@ -198,6 +219,7 @@
 
 .thanking-customers-section {
     background-color: #d0b2001a;
+    padding: 20px;
 }
 
 .thanking-customers-section-heading {
@@ -205,21 +227,25 @@
     font-family: "Roboto";
     font-size: 28px;
     font-weight: 700;
+    text-align: center;
 }
 
 .thanking-customers-section-description {
     color: #5a7184;
     font-family: "Roboto";
     font-size: 16px;
+    text-align: center;
 }
 
 .thanking-customers-section-img {
-    width: 270px;
+    width: 100%;
+    height: auto;
     margin-bottom: 20px;
 }
 
 .follow-us-section {
     background-color: white;
+    padding: 20px;
 }
 
 .follow-us-section-heading {
@@ -232,23 +258,22 @@
 
 .follow-us-icon-container {
     background-color: #faf7e8;
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    margin: 15px;
-    padding-top: 22px;
-    padding-bottom: 14px;
-    padding-right: 16px;
-    padding-left: 22px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 15px;
 }
 
 .icon {
     color: #d0b200;
-    font-size: 35px;
+    font-size: 24px;
 }
 
 .footer-section {
     background-color: #0d2436;
+    padding: 20px;
+    text-align: center;
 }
 
 .footer-section-mail-id {
@@ -265,68 +290,82 @@
     font-size: 14px;
 }
 
-/* Mobile Styles */
+/* Enhanced Mobile Styles */
 @media (max-width: 768px) {
     .food-munch-logo {
         width: 80px;
         height: 60px;
+        display: block;
+        margin: 0 auto;
     }
 
     .banner-heading {
-        font-size: 28px;
+        font-size: 24px;
+        text-align: center;
     }
 
     .banner-caption {
-        font-size: 20px;
+        font-size: 18px;
+        text-align: center;
     }
 
     .custom-button,
     .custom-outline-button {
         width: 100%;
-        margin-bottom: 10px;
+        margin: 10px 0;
+        display: block;
+        text-align: center;
     }
 
     .wcu-card {
-        margin-bottom: 20px;
-        padding: 10px;
+        width: 100%;
+        padding: 15px;
     }
 
     .wcu-card-image {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
-    .menu-item-image,
-    .healthy-food-section-img,
-    .delivery-and-payment-section-img,
-    .thanking-customers-section-img {
+    .menu-item-card {
         width: 100%;
-        height: auto;
     }
 
-    .menu-card-title,
-    .wcu-section-heading,
-    .menu-section-heading,
+    .menu-card-title {
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .menu-item-link {
+        font-size: 12px;
+    }
+
+    .healthy-food-section,
+    .delivery-and-payment-section,
+    .thanking-customers-section,
+    .follow-us-section {
+        padding: 10px;
+    }
+
     .healthy-food-section-heading,
     .delivery-and-payment-section-heading,
     .thanking-customers-section-heading,
     .follow-us-section-heading {
-        font-size: 24px;
+        font-size: 22px;
     }
 
-    .menu-item-link,
     .footer-section-mail-id,
     .footer-section-address {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .follow-us-icon-container {
-        width: 60px;
-        height: 60px;
-        margin: 10px;
+        width: 50px;
+        height: 50px;
+        margin: 5px auto;
     }
 
     .icon {
-        font-size: 24px;
+        font-size: 20px;
     }
 }
