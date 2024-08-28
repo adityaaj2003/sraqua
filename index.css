@@ -10,21 +10,9 @@
     background-size: cover;
 }
 
-#navItem1 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-#navItem2 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
-#navItem3 {
-    color: #323f4b;
-    font-family: "Roboto";
-}
-
+#navItem1,
+#navItem2,
+#navItem3,
 #navItem4 {
     color: #323f4b;
     font-family: "Roboto";
@@ -38,7 +26,6 @@
 
 .banner-section-bg-container {
     background-image: url("https://tse4.mm.bing.net/th?id=OIP.9FqkyncDjAdNoLu2nx6lnwHaGL&pid=Api&P=0&h=180");
-
     background-size: cover;
 }
 
@@ -148,7 +135,6 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: 24px;
-
 }
 
 .menu-item-link {
@@ -277,4 +263,70 @@
     color: #959ead;
     font-family: "Roboto";
     font-size: 14px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .food-munch-logo {
+        width: 80px;
+        height: 60px;
+    }
+
+    .banner-heading {
+        font-size: 28px;
+    }
+
+    .banner-caption {
+        font-size: 20px;
+    }
+
+    .custom-button,
+    .custom-outline-button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .wcu-card {
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .wcu-card-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .menu-item-image,
+    .healthy-food-section-img,
+    .delivery-and-payment-section-img,
+    .thanking-customers-section-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .menu-card-title,
+    .wcu-section-heading,
+    .menu-section-heading,
+    .healthy-food-section-heading,
+    .delivery-and-payment-section-heading,
+    .thanking-customers-section-heading,
+    .follow-us-section-heading {
+        font-size: 24px;
+    }
+
+    .menu-item-link,
+    .footer-section-mail-id,
+    .footer-section-address {
+        font-size: 14px;
+    }
+
+    .follow-us-icon-container {
+        width: 60px;
+        height: 60px;
+        margin: 10px;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
 }
