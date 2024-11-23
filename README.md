@@ -1,0 +1,2 @@
+The web application built to handle the service request from the customers of a water purifeir company and also helps for the inventory management tool for the company's employees. Used HTML,CSS and Bootstrap for the frontend of the application. Used PHP for the interaction with the database and MySQL for database. The website is up and live with the practically used by the company.
+https://sraqua.shop/
