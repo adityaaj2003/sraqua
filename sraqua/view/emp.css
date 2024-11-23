@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* General Styling */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Card Style */
+.card {
+    background-color: #ffffff;
+    padding: 25px;
+    margin: 20px 10%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Style */
+.food-munch-logo {
+    width: 160px;
+    height: 130px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Button Styles */
+.bttn, .button {
+    background-color: #ff8c42;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.bttn:hover, .button:hover {
+    background-color: #ff6700;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    transform: translateY(0px);
+}
+
+/* Form Container */
+.form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+.h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: #333;
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+}
+
+/* Label and Input Styling */
+label {
+    margin-top: 15px;
+    color: #555;
+    font-size: 1em;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    transition: border-color 0.2s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #ff8c42;
+    outline: none;
+}
+
+/* Section Titles */
+.h2, .sh2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 15px;
+    /* max-width: 180px; */
+}
+
+/* Paragraph Styling */
+.p {
+    color: #555;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+/* Container for Layout */
+.container {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Total Section */
+.total {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card, .form-container, .container {
+        margin: 10px;
+        padding: 20px;
+    }
+
+    .bttn, .button {
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    .h1, .h2 {
+        font-size: 1.8em;
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #f9f9f9;
+    padding: 15px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-logo {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+    color: #ffe5d1;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-link:hover {
+    background-color: #ff6700; /* Slightly darker shade */
+    color: #ffe5d1;
+    transform: translateY(-2px);
+}
+
+/* Mobile Menu */
+.navbar-toggle {
+    display: none;
+    font-size: 1.5em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+       background-color: #f9f9f9;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        padding: 20px 0;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+    }
+}
+img{
+    height: 30px;
+}

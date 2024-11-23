@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+/* General Reset and Font Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Body and Background Styling */
+body {
+    background-color:  #f5f5f5;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.bg2 #back
+{
+    
+    font-size: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+     display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+}
+.bg1 {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    
+}
+
+/* Sidebar Styling */
+.bg2 {
+    width: 25%;
+
+    color: #ffffff;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bg2 h1 {
+    font-size: 1.8em;
+    margin-bottom: 30px;
+    color: #333;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.bg2 .btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    font-size: 1em;
+    background-color: #f9f9f9;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s ease;
+    text-align: center;
+    font-weight: bold;
+}
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    margin: 8px 0;
+    font-size: 1em;
+   background-color: #f9f9f9;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background 0.3s, transform 0.2s ease;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bg2 .btn:hover {
+   background-color: #f9f9f9;
+    transform: translateY(-2px);
+}
+
+.bg2 .btn:active {
+    transform: translateY(1px);
+
+}
+
+/* Main Content Styling */
+.bg3 {
+    width: 75%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.bg3 h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #f9f9f9;
+}
+
+/* Data Table Styling */
+#recordsTable {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#recordsTable thead {
+    background-color: #2575fc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#recordsTable th, #recordsTable td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#recordsTable tbody tr:nth-child(even) {
+    background-color: #f5f9ff;
+}
+
+#recordsTable tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+#recordsTable tbody tr:hover {
+    background-color: #e3f2fd;
+    cursor: pointer;
+}
+/* Export Buttons Styling */
+.export-btn {
+    background: linear-gradient(135deg, #67d1be, #8b88d2);
+    color: #333;
+    padding: 8px 16px;
+    margin: 10px 5px 20px 0;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.export-btn:hover {
+    background: linear-gradient(135deg, #67d1be, #8b88d2);
+    transform: translateY(-2px);
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .bg1 {
+        flex-direction: column;
+    }
+
+    .bg2, .bg3 {
+        width: 100%;
+    }
+
+    .bg2 .btn {
+        font-size: 0.9em;
+        padding: 10px 0;
+    }
+
+    #recordsTable th, #recordsTable td {
+        /* padding: 10px 12px; */
+        width: 100%;
+    }
+}

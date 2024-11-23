@@ -1,0 +1,126 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #f44336;
+    color: white;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar-nav .btn {
+    font-size: 0.9rem;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #4caf50;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+
+.btn-danger {
+    background-color: #f44336;
+}
+
+.btn-danger:hover {
+    background-color: #e53935;
+}
+
+/* Container Styling */
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Responsive Tables */
+.table-responsive {
+    overflow-x: auto;
+}
+.recordsTable {
+    /* width: 100%; */
+    margin: 20px 0;
+}
+
+#recordsTable thead {
+    background-color: #2575fc;
+    color: #ffffff;
+}
+
+#recordsTable tbody tr:nth-child(odd) {
+    background-color: #f3f3f3;
+}
+
+#recordsTable tbody tr:hover {
+    background-color: #e6f7ff;
+    cursor: pointer;
+}
+/* Mobile View Adjustments */
+@media (max-width: 768px) {
+    .navbar-nav .btn {
+        font-size: 0.8rem;
+        margin: 5px 0;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
+.recordsTable {
+    width: 100%;
+    table-layout: auto; 
+    margin: 0;
+}
+
+.recordsTable th{
+    background-color: #f44336;
+}
+.recordsTable th, 
+.recordsTable td {
+    text-align: left; /* Align text to the left for better readability */
+    padding: 8px; /* Add some padding for readability */
+   
+}
+
+/* Card Styling */
+.container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.table-responsive {
+    width: 100%; /* Ensure the table stretches across the card */
+    overflow-x: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .recordsTable {
+        font-size: 0.9rem; /* Adjust font size for mobile view */
+    }
+}
